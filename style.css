@@ -204,13 +204,42 @@ header nav.header--banner--nav ul li a {
   margin-bottom:100px;/*edit later*/
 }
 
+.personal-info {
+  display:flex;
+  margin-left: 20px;
+  width: 500px;
+  flex-direction: column;
+  text-align: left;
+  justify-content:center;
+  
+}
+
+.personal-contact{
+
+  background: rgb(248, 163, 219);
+  padding: 12px;
+  border-radius: 12px;
+  width: 170px;
+  text-align:center;
+}
+
+.personal-contact ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #000000;
+  font-weight: 800;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/*styles for images*/
 main img {
   border-radius:25px;
-
   position: relative;
   width: 450px;
   height: 550px; 
   object-fit: cover;
-  
 }
 
