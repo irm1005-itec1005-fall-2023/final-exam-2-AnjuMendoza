@@ -85,6 +85,13 @@ body {
   color:#F2E8CF;
 }
 
+header .header--banner--logo {
+  height: 3rem;
+  padding: 8px;
+  background-color:black;
+  border-radius:12px;
+}
+
 header .header--banner--nav ul {
   display: flex;
   gap: 2rem;
@@ -109,9 +116,11 @@ header nav.header--banner--nav ul li a {
   border-radius: 12px;
 }
 
-
-
 /*Layout for wrapper*/
+.wrapper {
+  margin-top:100px;
+  margin-bottom: 100px;
+}
 .wrapper ul li  {
   display:flex;
   flex-direction: column;
@@ -126,7 +135,6 @@ header nav.header--banner--nav ul li a {
   grid-template-columns: repeat(4, 1fr);
   gap: 0.8rem;
   list-style-type: none;
- 
 }
 .item-1 {
   grid-column-start: 1;
@@ -190,4 +198,19 @@ header nav.header--banner--nav ul li a {
   background-color: #ca78ce;
 }
 
+/*Style to fomrat Amy & info*/
+.personal {
+  display:flex;
+  margin-bottom:100px;/*edit later*/
+}
+
+main img {
+  border-radius:25px;
+
+  position: relative;
+  width: 450px;
+  height: 550px; 
+  object-fit: cover;
+  
+}
 
