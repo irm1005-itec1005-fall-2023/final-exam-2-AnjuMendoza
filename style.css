@@ -34,8 +34,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
   background-color: #f7ead7;
+  color: black;
 }
 
 /*
@@ -67,3 +67,40 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+
+
+
+ /*Layout for header*/
+
+ header {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#F2E8CF;
+}
+
+header .header--banner--nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+header nav.header--banner--nav {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+header nav.header--banner--nav ul li a {
+  font-size: 0.8rem;
+  color: #F2E8CF;
+  text-decoration: none;
+  font-weight: 800;
+
+  background: black;
+  padding: 12px;
+  border-radius: 12px;
+
+}
