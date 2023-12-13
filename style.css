@@ -207,7 +207,7 @@ header nav.header--banner--nav ul li a {
 .personal-info {
   display:flex;
   margin-left: 20px;
-  width: 500px;
+  width: 400px;
   flex-direction: column;
   text-align: left;
   justify-content:center;
@@ -220,7 +220,7 @@ header nav.header--banner--nav ul li a {
   padding: 12px;
   border-radius: 12px;
   width: 170px;
-  text-align:center;
+  text-align: center;
 }
 
 .personal-contact ul li a {
