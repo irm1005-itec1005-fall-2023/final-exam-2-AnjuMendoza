@@ -62,13 +62,21 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 1.0rem;
+
+  /*Help organize whole page layout into several flex boxes (this is the main flexbox)*/
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
 }
 
-/*
- * ADD YOUR STYLES HERE
- */
+/*edit sub text under h1*/
+.sub-text {
+  color:grey;
+  margin-top:15px;
 
 
+}
 
  /*Layout for header*/
 
