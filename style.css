@@ -67,6 +67,7 @@ body {
   flex-direction:column;
   align-items:center;
   text-align:center;
+  /*flex-wrap: wrap; save for later?*/
 }
 
 /*edit sub text under h1*/
@@ -204,23 +205,25 @@ header nav.header--banner--nav ul li a {
   margin-bottom:100px;/*edit later*/
 }
 
+.hey {
+  margin-bottom: 20px;
+}
+
 .personal-info {
   display:flex;
-  margin-left: 20px;
+  margin-left: 25px;
   width: 400px;
   flex-direction: column;
   text-align: left;
   justify-content:center;
-  
 }
 
 .personal-contact{
-
   background: rgb(248, 163, 219);
   padding: 12px;
   border-radius: 12px;
   width: 170px;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .personal-contact ul li a {
