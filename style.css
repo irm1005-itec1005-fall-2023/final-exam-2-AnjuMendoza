@@ -28,7 +28,7 @@
  * }
  */
 
- html {
+html {
   font-size: 1.0rem;
 }
 
@@ -287,7 +287,38 @@ header nav.header--banner--nav ul li a {
   font-weight: 800;
 }
 
+/*footer styles*/
+footer {
+  padding: 0.6rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f1faee;
+}
 
+footer .footer--nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav.footer--nav {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+footer .footer--banner--logo {
+  height: 3.5rem;
+  width:3.5rem;
+  padding: 8px;
+  border-radius:12px;
+}
+
+.copyright {
+color:lightgray;
+}
 
 
 
