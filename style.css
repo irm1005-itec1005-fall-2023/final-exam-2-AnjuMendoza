@@ -237,6 +237,22 @@ header nav.header--banner--nav ul li a {
   list-style-type: none;
 }
 
+/*Styles for My Work part*/
+.my-work {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
 /*styles for images*/
 main img {
   border-radius:25px;
@@ -245,4 +261,3 @@ main img {
   height: 550px; 
   object-fit: cover;
 }
-
