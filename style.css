@@ -113,19 +113,20 @@ header nav.header--banner--nav ul li a {
 
 /*Layout for wrapper*/
 .wrapper ul li  {
-  text-align: start;
+  display:flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  text-align:start;
   font-size: 20px;
   font-weight:900px;
   padding:50px;
-  
 }
 .grid-container-task {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.8rem;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+ 
 }
 .item-1 {
   grid-column-start: 1;
