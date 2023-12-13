@@ -62,7 +62,6 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 1.0rem;
-
   /*Help organize whole page layout into several flex boxes (this is the main flexbox)*/
   display:flex;
   flex-direction:column;
@@ -74,12 +73,10 @@ body {
 .sub-text {
   color:grey;
   margin-top:15px;
-
-
+  margin-bottom: 50px;
 }
 
  /*Layout for header*/
-
  header {
   padding: 2rem 1rem;
   display: flex;
@@ -110,5 +107,86 @@ header nav.header--banner--nav ul li a {
   background: black;
   padding: 12px;
   border-radius: 12px;
-
 }
+
+
+
+/*Layout for wrapper*/
+.wrapper ul li  {
+  text-align: start;
+  font-size: 20px;
+  font-weight:900px;
+  padding:50px;
+  
+}
+.grid-container-task {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: rgb(212, 164, 209);
+}
+
+.item-2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: #ffb0e9;
+}
+
+.item-3 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: ;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: #f77edd;
+}
+
+.item-4{
+  grid-column-start: 3;
+  grid-column-end:5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: #99d0f3;
+}
+
+.item-5 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: #a5e1ff;
+}
+
+.item-6 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: #ca78ce;
+}
+
+
